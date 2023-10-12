@@ -1,5 +1,14 @@
 {
-    "require": {
-        "phpoffice/phpspreadsheet": "^1.22"
+  "name": "wendnessme/calc",
+  "type": "project",
+
+  "require": {
+    "phpoffice/phpspreadsheet": "^1.22"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "WendnessMe\\Calc\\": "src/"
     }
+  }
 }

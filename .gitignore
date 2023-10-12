@@ -1,3 +1,5 @@
 vendor
-try.php
-TestSheet.xlsx
+*.xlsx
+*.xlsx#
+test.php
+index.php
